@@ -8,7 +8,6 @@ from OpenGL.GLU import *
 from OpenGL.GLUT import *
 import sys
 
-
 def draw():
     glClear(GL_COLOR_BUFFER_BIT)
 
@@ -28,7 +27,6 @@ def draw():
     glEnd()
 
     glutSwapBuffers()
-
 
 glutInit(sys.argv)
 glutInitWindowSize(500, 500)
